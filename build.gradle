@@ -1,20 +1,16 @@
 plugins {
-    id "org.jetbrains.intellij" version "0.0.20"
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.4.10'
 }
 
-apply plugin: 'org.jetbrains.intellij'
-apply plugin: 'java'
-
-sourceCompatibility = 1.7
-
 intellij {
-    version '14.1.4'
-    plugins 'coverage'
-    pluginName 'sample'
+    version '2019.2'
+    plugins 'java'
 }
 
 group 'inject_log_tag_plugin'
-version '1.0.2'
+version '1.0.3'
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()

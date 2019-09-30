@@ -1,16 +1,18 @@
-<idea-plugin version="2">
-    <id>jp.tomorrowkey.intellij.injectlogtag</id>
-    <name>Inject LOG_TAG Plugin</name>
-    <version>1.0.2</version>
-    <vendor email="tomorrowkey@gmail.com" url="https://github.com/tomorrowkey/InjectLogTagPlugin">tomorrowkey
+<idea-plugin>
+    <id>cn.reker.intellij.injectlogtag</id>
+    <name>Inject LOG_TAG</name>
+    <version>1.0.3</version>
+    <vendor url="https://github.com/imreker/InjectLogTagPlugin">reker
     </vendor>
 
     <description><![CDATA[
-      Generate LOG_TAG field to use for android.util.Log.
+      Generate TAG field to use for android.util.Log.
+      Forked from https://github.com/tomorrowkey/InjectLogTagPlugin
     ]]></description>
 
     <change-notes><![CDATA[
-      The first release.
+      Add indent.
+      Fix bug.
       ]]>
     </change-notes>
 
@@ -22,6 +24,7 @@
     <!-- uncomment to enable plugin in all products
     <depends>com.intellij.modules.lang</depends>
     -->
+    <depends>com.intellij.modules.java</depends>
 
     <application-components>
         <!-- Add your application components here -->
