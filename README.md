@@ -1,17 +1,15 @@
 InjectLogTagPlugin
 ==================
 
-[![Circle CI](https://circleci.com/gh/tomorrowkey/InjectLogTagPlugin.svg?style=svg)](https://circleci.com/gh/tomorrowkey/InjectLogTagPlugin)
-
 Inject Log Tag Plugin is a plugin for Android Studio.  
 
 When you want to output log by logcat, you write like this.
 
 ```
-Log.d(LOG_TAG, "somthing");
+Log.d(TAG, "somthing");
 ```
 
-Usually I declare LOG_TAG variable below the class declaration, 
+Usually I declare TAG variable below the class declaration, 
 and use it is Log class.
 
 ## Usage
@@ -21,7 +19,7 @@ and use it is Log class.
 Download plugin from JetBrains repository.
 
 ```
-Preferences > Plugins > Install JetBrains Plugins... > Inject LOG_TAG Plugin
+Preferences > Plugins > Install JetBrains Plugins... > Inject Android Log TAG
 ```
 
 ### Call the plugin while coding
@@ -34,4 +32,4 @@ Code > Generate...
 Select Inject LOG-TAG
 ```
 
-LOG_TAG field will be appeared.
+TAG field will be appeared.
