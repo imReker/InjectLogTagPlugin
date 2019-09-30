@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>cn.reker.intellij.injectlogtag</id>
-    <name>Inject LOG_TAG</name>
+    <name>Inject Android Log TAG</name>
     <version>1.0.3</version>
     <vendor url="https://github.com/imreker/InjectLogTagPlugin">reker
     </vendor>
