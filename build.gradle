@@ -8,6 +8,10 @@ intellij {
     plugins 'java'
 }
 
+publishPlugin {
+    token hub_token
+}
+
 group 'inject_log_tag_plugin'
 version '1.0.3'
 sourceCompatibility = 1.8
